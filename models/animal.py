@@ -3,173 +3,156 @@ from datetime import date
 
 # walking animals --------------------------------------
 class Llama():
-    def __init__(self):
-        self.name = "name"
-        self.species = "species"
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
         self.walking = True
         self.date_added = date.today()
 
-miss_fuzz = Llama()
-miss_fuzz.name = "Miss Fuzz"
-miss_fuzz.species = "domestic llama"
+miss_fuzz = Llama("Miss Fuzz", "domestic llama")
+
 
 class Giraffe():
-    def __init__(self):
-        self.name = "name"
-        self.species = "species"
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
         self.walking = True
         self.date_added = date.today()
 
-leonard = Giraffe()
-leonard.name = "Leonard"
-leonard.species = "leaf eater"
+leonard = Giraffe("Leonard", "leaf eater")
+
 
 class Snow_leopard():
-    def __init__(self):
-        self.name = "name"
-        self.species = "species"
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
         self.walking = True
         self.date_added = date.today()
 
-sassy = Snow_leopard()
-sassy.name = "Sassy"
-sassy.species = "illusive leopard"
+sassy = Snow_leopard("Sassy", "illusive leopard")
+
 
 class Bonobo():
-    def __init__(self):
-        self.name = "name"
-        self.species = "species"
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
         self.walking = True
         self.date_added = date.today()
 
-beatrice = Bonobo()
-beatrice.name = "Beatrice"
-beatrice.species = "bonobo"
+beatrice = Bonobo("Beatrice", "bonobo")
+
 
 class Goat():
-    def __init__(self):
-        self.name = "name"
-        self.species = "species"
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
         self.walking = True
         self.date_added = date.today()
 
-guthrie = Goat()
-guthrie.name = "Guthrie"
-guthrie.species = "fainting goat"
+guthrie = Goat("Guthrie", "fainting goat")
+
 
 
 # slithering animals ---------------------------------------
 
 class Snake():
-    def __init__(self):
-        self.name = "name"
-        self.species = "species"
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
         self.slithering = True
         self.date_added = date.today()
 
-serpentine = Snake()
-serpentine.name = "Serpentine"
-serpentine.species = "coral snake"
+serpentine = Snake("Serpentine", "coral snake")
+
 
 class Alligator():
-    def __init__(self):
-        self.name = "name"
-        self.species = "species"
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
         self.slithering = True
         self.date_added = date.today()
 
-arnie = Alligator()
-arnie.name = "Arnie"
-arnie.species = "spikey boi"
+arnie = Alligator("Arnie", "spikey boi")
+
 
 class Dragon():
-    def __init__(self):
-        self.name = "name"
-        self.species = "species"
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
         self.slithering = True
         self.date_added = date.today()
 
-duncan = Dragon()
-duncan.name = "Duncan"
-duncan.species = "dandy boi"
+duncan = Dragon("Duncan", "dandy boi")
+
 
 class Salamander():
-    def __init__(self):
-        self.name = "name"
-        self.species = "species"
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
         self.slithering = True
         self.date_added = date.today()
 
-sasquatch = Salamander()
-sasquatch.name = "Sasquatch"
-sasquatch.species = "rainbow boi"
+sasquatch = Salamander("Sasquatch", "rainbow boi")
+
 
 class Lizard():
-    def __init__(self):
-        self.name = "name"
-        self.species = "species"
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
         self.slithering = True
         self.date_added = date.today()
 
-lucinda = Lizard()
-lucinda.name = "Lucinda"
-lucinda.species = "chameleon"
+lucinda = Lizard("Lucinda", "chameleon")
+
 
 
 # swimming animals --------------------------------------
 
 class Salmon():
-    def __init__(self):
-        self.name = "name"
-        self.species = "species"
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
         self.swimming = True
         self.date_added = date.today()
 
-suzie = Salmon()
-suzie.name = "Suzie"
-suzie.species = "pink salmon"
+suzie = Salmon("Suzie", "pink salmon")
+
 
 class Manatee():
-    def __init__(self):
-        self.name = "name"
-        self.species = "species"
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
         self.swimming = True
         self.date_added = date.today()
 
-marceline = Manatee()
-marceline.name = "Marceline"
-marceline.species = "soft and large"
+marceline = Manatee("Marceline", "soft and large")
+
 
 class Sting_ray():
-    def __init__(self):
-        self.name = "name"
-        self.species = "species"
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
         self.swimming = True
         self.date_added = date.today()
 
-samuel = Sting_ray()
-samuel.name = "Samuel"
-samuel.species = "zebra painted"
+samuel = Sting_ray("Samuel", "zebra painted")
+
 
 class Eel():
-    def __init__(self):
-        self.name = "name"
-        self.species = "species"
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
         self.swimming = True
         self.date_added = date.today()
 
-elfie = Eel()
-elfie.name = "Elfie"
-elfie.species = "electric"
+elfie = Eel("Elfie", "electric")
+
 
 class Goldfish():
-    def __init__(self):
-        self.name = "name"
-        self.species = "species"
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
         self.swimming = True
         self.date_added = date.today()
 
-nemo = Goldfish()
-nemo.name = "Nemo"
-nemo.species = "domestic"
-
+nemo = Goldfish("Nemo", "domestic")
